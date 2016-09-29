@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311847846937",
+    "firebase_url": "https://aeropushnotifications.firebaseio.com",
+    "project_id": "aeropushnotifications",
+    "storage_bucket": "aeropushnotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311847846937:android:112f5064a5d3a2ef",
+        "android_client_info": {
+          "package_name": "sebastianhiguita.shackox.me.com.aeropushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311847846937-oc7eqiigaldmqljnc8ecngoeifsj848p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZI0F3qKIIHNfZq6jdvGXFsTeBAQn5G5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
