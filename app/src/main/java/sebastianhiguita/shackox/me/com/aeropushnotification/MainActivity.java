@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         Request request = new Request.Builder()
-                .url("http://175.35.0.15/fcm/register.php")
+                .url("https://cloudapp-manzza.rhcloud.com/Push/DeviceRegister.php") // cloud development
+                //.url("http://175.35.0.15/fcm/register.php") //local development
                 .post(body)
                 .build();
 
