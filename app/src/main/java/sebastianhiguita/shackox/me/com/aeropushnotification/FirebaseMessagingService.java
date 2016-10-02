@@ -11,8 +11,7 @@ import android.support.v4.app.NotificationCompat;
 
 import com.google.firebase.messaging.RemoteMessage;
 
-import sebastianhiguita.shackox.me.com.aeropushnotification.MainActivity;
-import sebastianhiguita.shackox.me.com.aeropushnotification.R;
+import sebastianhiguita.shackox.me.com.aeropushnotification.notifications.PushNotificationsActivity;
 
 /**
  * Created by filipp on 5/23/2016.
@@ -31,7 +30,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
 
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.airplane_black);
 
-        Intent i = new Intent(this,MainActivity.class);
+        Intent i = new Intent(this,PushNotificationsActivity.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this,0,i,PendingIntent.FLAG_UPDATE_CURRENT);
